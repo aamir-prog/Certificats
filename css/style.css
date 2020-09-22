@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(-45deg, #aa3916, #978b8b, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.competences {
+    padding: 15px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+}
+a :hover {
+    color: red;
+}
+.gauche {
+    display: grid;
+    padding: 15px;
+}
+ul li :hover {
+    color: red;
+}
+
+
+
+
+
